@@ -1,0 +1,17 @@
+{
+    "name": "Outline Everything",
+    "version": "1.0.0",
+    "description": "The last resort debugging tool.",
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs", 
+        "http://*/*",
+        "https://*/*"
+    ],
+    "manifest_version": 2
+}
